@@ -2,12 +2,9 @@ import sys
 from setuptools import setup
 
 requirements = [
-    'datetime>=4.2',
-    'numpy>=1.15.0',
-    'opencv-python>=3.4.2.17',
-    'torch>=1.0.0',
-    'torchvision>=0.2.1',
-    'psutil>=5.4.8'
+    'numpy',
+    'torchvision',
+    'psutil'
     ]
 
 setup(
