@@ -1,13 +1,22 @@
 import sys
 from setuptools import setup
 
+requirements = [
+    'datetime>=4.2',
+    'numpy>=1.15.0',
+    'opencv-python>=3.4.2.17',
+    'torch>=1.0.0',
+    'torchvision>=0.2.1',
+    'psutil>=5.4.8'
+    ]
+
 setup(
-    name = "helloworld",        # what you want to call the archive/egg
+    name = "helloworldKJ",        # what you want to call the archive/egg
     version = "0.1",
     packages=["helloworld"],    # top-level python modules you can import like
                                 #   'import foo'
     dependency_links = [],      # custom links to a specific project
-    install_requires=[],
+    install_requires=[requirements],
     extras_require={},      # optional features that other packages can require
                             #   like 'helloworld[foo]'
     package_data = {},
