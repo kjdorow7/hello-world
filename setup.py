@@ -13,7 +13,6 @@ requirements = [
 setup(
     name = "helloworld",        # what you want to call the archive/egg
     version = "0.1",
-    packages=["helloworld"],    # top-level python modules you can import like
                                 #   'import foo'
     dependency_links = [],      # custom links to a specific project
     install_requires=requirements,
